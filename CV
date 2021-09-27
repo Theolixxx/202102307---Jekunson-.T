@@ -1,0 +1,63 @@
+surat = "Commanditaire Vennootschap"
+judul_1 ="Data Pribadi"
+Nama = "Jekunson Togatorop"
+Jenis_Kelamin = "Laki-laki"
+Tempat_Tanggal_Lahir = "Nanga pinoh, 14-02-2002"
+Kesehatan = "Sangat Baik"
+Kewarganegaraan = "Indonesia"
+Status_Perkawinan = "Belum Menikah"
+Agama = "Kristen"
+Alamat_Lengkap = """Planet Bumi,
+       RT/RW          : 1.025957 d, 24ʰ 37ᵐ 22.7ˢ
+       Kel/Desa       : Moon
+       Kecamatan      :MARS"""
+Nomor_Telepon = "08xx xxxx xxxx"
+judul_2 = "PENDIDIKAN FORMAL"
+SD = "SD Amkur"
+SMP = "SMP N 01 Sanggau Ledo"
+SMK = "SMK Bina Utama"
+judul_3 = "PENDIDIKAN NON FORMAL"
+PENDIDIKAN_NON_FORMAL = "-"
+judul_4 = "Organisasi/Ekstrakurikuler"
+ORGANISASI = "GAK IKUT-IKUT ORGANISASI MAMA MARAH"
+judul_5 = "PENGALAMAN KERJA"
+PENGALAMAN_KERJA = "Tembus mythical Glory "
+judul_6 = "PRESTASI"
+PRESTASI = """TOP PROVINSI HERO GROCK"""
+Penutup = "Demikian Ini Daftar Riwayat Hidup saya buat dengan sebenar benarnya."
+Tempat_Tanggal_Pembuatan = "Pontianak 21 Sep 2021"
+TTD = """Hormat saya,
+Jekunson Togatorop AKA Jack"""
+#cetak
+print('{:>44}'.format(surat))
+print("=============================================================")
+print (judul_1)
+print("Nama                  :", Nama)
+print("Jenis Kelamin         :", Jenis_Kelamin)
+print("Tempat Tanggal Lahir  :",Tempat_Tanggal_Lahir)
+print("Kesehatan             :", Kesehatan)
+print("Kewarganegaraan       :", Kewarganegaraan)
+print("Status Perkawinan     :", Status_Perkawinan)
+print("Agama                 :",  Agama)
+print("Alamat Lengkap        :", Alamat_Lengkap)
+print("Nomor Telepon         :", Nomor_Telepon)
+print("=============================================================")
+print (judul_2)
+print("2008 - 2014           :", SD)
+print("2014 - 2017           :",SMP)
+print("2017 - 2020           :",SMK)
+print (judul_3)
+print("2003 - 2021           :",  PENDIDIKAN_NON_FORMAL)
+print("=============================================================")
+print (judul_4)
+print(ORGANISASI)
+print("=============================================================")
+print (judul_5)
+print("2020 - 2021           :", PENGALAMAN_KERJA)
+print("=============================================================")
+print (judul_6)
+print(PRESTASI)
+print("=============================================================")
+print(Penutup)
+print (Tempat_Tanggal_Pembuatan)
+print (TTD)
