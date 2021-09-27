@@ -1,0 +1,32 @@
+nik = "61070623xxxxx002"
+ttl = "Nanga pinoh, 14-04-2002"
+jeniskel = "Laki-laki"
+goldar = "-"
+nama = "Jekunson Togatorop"
+alamat = """Bumi,
+       RT/RW     :  1.025957 d, 24ʰ 37ᵐ 22.7ˢ
+       Kel/Desa  :  Moon
+       Kecamatan :  0.636 (0.4–0.87) kPa, 0.00628 atm"""
+agama = "Kristen"
+kewarga = "WNi"
+berlaku = "Seumur Hidup"
+kerja = "Pelajar/Mahasiswa"
+menikah =False
+#cetak
+print("=============================================================")
+
+print("NIK : ", nik)
+
+print("Nama             : ", nama)
+print("Tempat Tgl Lahir : ", ttl)
+print("Jenik Kelamin    : ", jeniskel)
+print("Alamat           : ", alamat)
+print("Agama            : ", agama)
+if(menikah):
+    print("Status           :  Menikah")
+else:
+    print("Status           :  Belum Menikah")
+print("Pekerjaan        : ", kerja)
+print("Kewarganegaraan  : ", kewarga)
+print("Berlaku Hingga   : ", berlaku)
+print("=============================================================")
